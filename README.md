@@ -1,2 +1,5 @@
-# Easy21_Reinforcement-Learning
-Easy 21 Reinforcement learning assignment, David Silver's course.
+# Easy 21 Game Implementation using Reinforcement Learning
+
+This assignment was completed for David Silver's Reinforcement Learning course.
+
+Project files and plots available under the desktop folder.
