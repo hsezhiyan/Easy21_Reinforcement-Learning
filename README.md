@@ -2,8 +2,6 @@
 
 This assignment was completed for David Silver's Reinforcement Learning course.
 
-Project files and plots available under the desktop folder.
-
 # Game Definition
 
 prog1.py defines the rules of the game, which is a slight variant of blackjack.
