@@ -12,7 +12,7 @@ prog2.py implements the Monte Carlo methods for calculating the value of the sta
 
 To run this file: `python prog2.py`
 
-<br> <img src="Monte_Carlo_Control.png" alt="Usage Data"/>
+<br> <img src="Monte_Carlo_Control.png" width="400" height="400" alt="Usage Data"/>
 
 # SARSA Method
 
@@ -20,4 +20,4 @@ prog3.py implements the SARSA method, also for calculating the value of the stat
 
 To run this file: `python prog3.py`
 
-<br> <img src="Sarsa_Control.png" alt="Usage Data"/>
+<br> <img src="Sarsa_Control.png" width="400" height="400" alt="Usage Data"/>
