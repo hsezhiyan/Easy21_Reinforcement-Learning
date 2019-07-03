@@ -5,15 +5,15 @@ import numpy as np
 # action = 1 <- players decides to hit (draw)
 
 class State:
-    dealercard = random.randint(1,10)
-    playersum = random.randint(1,21)
+	dealercard = random.randint(1,10)
+	playersum = random.randint(1,21)
 
 def drawcard(current):
-    if random.randint(1,3) < 3:
-        current += random.randint(1,10)
-    else:
-        current -= random.randint(1,10)
-    return current
+	if random.randint(1,3) < 3:
+		current += random.randint(1,10)
+	else:
+		current -= random.randint(1,10)
+	return current
 
 def step(state, action):
 	if(action == 0): # player decides to stick
@@ -30,7 +30,7 @@ def step(state, action):
 		
 	else:	 # player decides to hit and draw another card
 		state.playersum = drawcard(state.playersum)
-        if state.playersum < 1 or state.playersum > 21:
-            return "terminal", -1.0
-        else:
-            return state, 0
+		if state.playersum < 1 or state.playersum > 21:
+			return "terminal", -1.0
+		else:
+			return state, 0
